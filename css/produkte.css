@@ -1,0 +1,120 @@
+/* content */
+
+.text-pro p {
+    font-family: font_faceback;
+    font-size: 15px;
+}
+
+.text-pro {
+    padding-left: 24px;
+    padding-right: 1%;
+    overflow: hidden;
+}
+
+.all_card .card-body h2 {
+    font-family: font_faceback;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+.all_card .card-body a.a_more {
+    display: inline-block;
+    padding: 4px 18px;
+    background-color: #e0e0e0;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+.all_card .call_body {
+    padding: 8px 4%;
+}
+
+.col_pro {
+    padding: 0 5px 10px 5px;
+}
+
+.row_pro {
+    margin: 0;
+}
+
+/* end */
+
+/* content_anwendereinsatz.html */
+.anw_sec {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.banner_header {
+    position: relative;
+}
+
+.banner_header h1.an_top {
+    font-family: font_faceback;
+    position: absolute;
+    top: 82%;
+    left: 3%;
+    margin-bottom: 0;
+    color: #333;
+    font-size: 27px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.tabs-main{
+    margin-bottom: 5px;
+}
+
+.tabs-link{
+    display: block;
+    border: 1px solid #95a5a6;
+}
+
+.tabs-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 22px;
+    background-image: linear-gradient(to bottom, rgba(238,239,238,1) 0%,rgba(255,255,255,1) 48%,rgba(247,247,247,1) 72%,rgba(239,240,238,1) 100%);
+}
+
+.tabs-link span{
+    font-family: font_facenext;
+    font-size: 18px;
+    color: #000;
+   
+}
+
+.tabs-link span.angle-right {
+    font-size: 36px;
+    transition: all .4s;
+}
+
+.tabs-link span.angle-right.rotate{
+    transform: rotate(90deg);
+    padding: 0;
+}
+
+.tabs-content{
+    margin-top: 20px;
+    display: none;
+}
+
+.col_anw {
+    margin-left: 0;
+}
+
+.body_anw {
+    border: 0;
+}
+
+.card .anw_p p {
+    font-size: 15px;
+    padding: 8px 0 20px 0;
+}
+/* end */
