@@ -6,10 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/res/res_mobile.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="response.css">
 </head>
 <body>
+    
     <div class="wrap-pages">
         <!-- header -->
         <header>
@@ -20,6 +21,7 @@
                             <img src="img/logo_was.png" alt="">
                         </div>
                     </div>
+
                     <div class="header_right">
                         <div id="header_Interact">
                             <select id="selectseacher">
@@ -52,28 +54,9 @@
                         <li><a href="home.html">Home</a></li>
                         <li><a href="produkte.html">Produkte</a></li>
                         <li><a href="anwendereinsatz.html">Anwender/Einsatz</a></li>
-                        <li class="has_sub">
-                            <a href="besonderheiten.html">Besonderheiten</a>
-                            <ul class="sub_menuhome">
-                                <li><a href="#">WAS Assist Systems</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="besonderheiten.html">Besonderheiten</a></li>
                         <li><a href="service.html">Service</a></li>
-                        <li class="has_sub">
-                            <a href="unternehmen.html">Unternehmen</a>
-                            <ul class="sub_menuhome">
-                                <li><a href="25-jahre-fortschritt.html">25 Jahre Fortschritt</a></li>
-                                <li><a href="produktion.html">Produktion</a></li>
-                                <li><a href="umwelt.html">Umwelt</a></li>
-                                <li><a href="news.html">News</a></li>
-                                <li><a href="safety-first.html">Safety First</a></li>
-                                <li><a href="karriere.html">Karriere</a></li>
-                                <li><a href="#">Ausbildung</a></li>
-                                <li><a href="#">Messen</a></li>
-                                <li><a href="#">Messeimpressionen</a></li>
-                                <li><a href="#">Videoportal</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="unternehmen.html">Unternehmen</a></li>
                         <li><a href="kontakt.html">Kontakt</a></li>
                     </ul>
                 </div>
@@ -86,7 +69,7 @@
                 </a>
                 <div class="menu-md">
                     <div id="accordianId" role="tablist" aria-multiselectable="true">
-                        <div class="card red_mobile">
+                        <div class="card">
                             <div class="card-header" role="tab" id="header1">
                                 <a href="#">Home</a>
                             </div>
@@ -242,6 +225,7 @@
                 
                     </div>
                 </div>
+
                 <!-- End -->
                 <div class="banner_header">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -522,27 +506,27 @@
         <!-- end -->
     </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script>
-    const iconDown = document.querySelectorAll(".icon_down");
-    const toggleMenu = document.querySelector(".toggle-menu");
-    const toggleForm = document.querySelector(".toggle-form");
-    iconDown.forEach(ic=>{
-        ic.addEventListener("click",function () { 
-            this.classList.toggle("active");
-        });
-    })
+    <script>
+        const iconDown = document.querySelectorAll(".icon_down");
+        const toggleMenu = document.querySelector(".toggle-menu");
+        const toggleForm = document.querySelector(".toggle-form");
+        iconDown.forEach(ic=>{
+            ic.addEventListener("click",function () { 
+                this.classList.toggle("active");
+            });
+        })
 
-    toggleMenu.addEventListener("click",function(){
-        document.querySelector(".menu-md").classList.toggle("active");
-    });
-    toggleForm.addEventListener("click",function(){
-        this.classList.toggle("active");
-        document.querySelector(".header_right").classList.toggle("active");
-       
-    });
-</script>
+        toggleMenu.addEventListener("click",function(){
+            document.querySelector(".menu-md").classList.toggle("active");
+        });
+        toggleForm.addEventListener("click",function(){
+            this.classList.toggle("active");
+            document.querySelector(".header_right").classList.toggle("active");
+           
+        });
+    </script>
 </body>
 </html>

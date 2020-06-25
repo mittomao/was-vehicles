@@ -1,10 +1,14 @@
+.banner_header img {
+    width: 100%;
+}
+
 /* content */
 .bes_content {
+    padding-left: 24px;
     margin-top: 26px;
 }
 .bes_content .content_md {
     padding-bottom: 30px;
-    padding-left: 24px;
     padding-right: 1%;
     margin-bottom: 30px;
     border-bottom: 1px solid #999;
@@ -324,5 +328,306 @@ p a.ser_a:hover {
 
 .top_kon {
     margin-top: 35px;
+}
+/* end */
+
+/* content 25-jahre-fortschritt.html */
+.bes_content .jah_bottom {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+}
+/* end */
+
+/* content produktion.html */
+.bes_content .olw_all {
+    margin-bottom: 40px;
+    padding: 35px 0 50px 0;
+    background: transparent url(https://www.was-vehicles.com/fileadmin/tpl/img/background_grey_fond.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.owl-carousel .owl-stage-outer {
+    margin: 0 35px;
+}
+
+.owl-theme .owl-dots {
+    display: none;
+}
+
+.owl-carousel .owl-nav button.owl-next span, .owl-carousel .owl-nav button.owl-prev span {
+    font-size: 50px;
+}
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+.bes_content .olw_all .owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: #000;
+}
+
+.bes_content .olw_all .owl-theme .owl-nav button:focus {
+    outline: none;
+}
+/* end */
+
+/* content umwelt.html */
+.bes_content .img_umw {
+    float: none;
+    width: 100%;
+    min-width: 0;
+}
+
+.bes_content .img_umw img {
+    max-width: 100%;
+    height: auto;
+
+}
+/* end */
+
+/* content news.html */
+.banner_header {
+    position: relative;
+}
+
+.banner_header .new_h1s {
+    margin-left: 0;
+    bottom: 45px;
+    position: absolute;
+    left: 0;
+    bottom: 22px;
+}
+
+.banner_header .new_h1s h1.new_tops {
+    margin-bottom: 0;
+    color: #333;
+    font-family: 'HelveticaNeueLTStd-Th';
+    font-size: 27px;
+    line-height: 1.4;
+    text-transform: uppercase;
+} 
+
+.banner_header .new_h1s h1.new_tops span {
+    font-family: font_faceend;
+    float: left;
+    clear: left;
+    margin-top: 5px;
+    padding: 4px 26px;
+    background-color: #b6192a;
+    font-size: 34px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.bes_content .new_md {
+    padding-bottom: 0;
+}
+.bes_content .new_bottom{
+    overflow: hidden;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.bes_content .new_md h3 {
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.bes_content .new_md h3 a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.bes_content .new_md p a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+.bes_content .new_md a.new_more {
+    color: #b6192a;
+    display: table;
+    margin-left: 6px;
+    text-decoration: underline;
+}
+
+.bes_content .new_md a.new_more:before {
+    content: ">";
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.bes_content .new_all .new_md .img_news {
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+}
+.bes_content .new_all .new_md .img_news img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/* end */
+
+/* content safety-first.html */
+.bes_content .mr_sa {
+    margin-bottom: 20px;
+}
+
+.bes_content .mar_sa {
+    margin-bottom: 0;
+}
+
+.bes_content .mr_sa input {
+    border-color: #ccc;
+    width: auto;
+    display: inline;
+    padding: 6px 5px;
+    background-color: #e0e0e0;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #e0e0e0;
+}
+
+.bes_content .sa_top {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.bes_content .sa_div {
+    padding-left: 0;
+}
+
+.bes_content .sa_14 {
+    margin-bottom: 14px;
+}
+
+.bes_content .content_kon .sa_von {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.bes_content .content_kon .sa_von a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.bes_content .sa_box .input_sa label {
+    font-size: 14px;
+}
+
+.bes_content .sa_box .input_sa label input {
+    position: relative;
+    bottom: -1px;
+    margin-right: 5px;
+}
+
+.bes_content .youtube-embed {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.bes_content .youtube-embed-image {
+    position: relative;
+    cursor: pointer;
+}
+
+.bes_content .youtube-embed-image::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    background: transparent url(https://www.was-vehicles.com/fileadmin/tpl/img/icon/icon_youtube_play.svg) no-repeat 0 0;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+    pointer-events: none;
+}
+
+.bes_content .youtube-embed-hint {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #b6192a;
+    padding: 19px;
+    font-size: 14px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bes_content .youtube-embed-ok {
+    display: inline-block;
+    margin-top: -5px;
+    padding: 8px 10px;
+    border: 1px solid #b6192a;
+    color: #b6192a;
+    border-radius: 2px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.bes_content .youtube-embed-image img {
+    width: 100%;
+    height: auto;
+}
+/* end */
+
+/* content karriere.html */
+.bes_content .kar_all p {
+    margin-bottom: 20px;
+}
+
+.bes_content .kar_all a {
+    font-family: font_facenext;
+    text-decoration: underline;
+    color: #333;
+    font-size: 15px;
+}
+
+.card .end_col .right_kar {
+    margin-bottom: 20px;
+}
+
+.card .end_col .right_kar .kar-image {
+    float: left;
+    margin-right: 12px;
+}
+
+.card .end_col .right_kar .kar-image img {
+    transform: scale(1);
+}
+
+.card .end_col .right_kar .kar_data {
+    font-family: font_facenext;
+    font-size: 12px;
+}
+
+.card .end_col .right_kar .kar_data a {
+    text-decoration: none;
+    color: #333;
+}
+
+.kar_card {
+    height: auto;
 }
 /* end */

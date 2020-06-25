@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/besonder.css">
     <link rel="stylesheet" href="css/res/res_mobile.css">
+    <!-- owl -->
+    <link rel="stylesheet" type="text/css" href="js/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="js/owl-carousel/owl.carousel.min.css">
 </head>
 <body>
     <div class="wrap-pages">
@@ -80,7 +83,7 @@
                     </ul>
                 </div>
                 <div class="banner_header">
-                   <img src="img/slide/Header_Service_1709_1000x344_01.jpg" alt="">
+                   <img src="img/slide/header_produktion_100x344px_01.jpg" alt="">
                 </div>
             </div>
         </header>
@@ -92,28 +95,33 @@
                 <div class="bes_content">
                     <div class="row">
                         <div class="col-md-8">
-                            <div class="content_md border_md">
-                                <h2>Schnelle Hilfe plus kompetente Vorsorge.</h2>
-                                <div class="img_md">
-                                    <img src="img/besonder/12.jpg" alt="">
-                                </div>
-                                <p>Wenn Sie beim Fahrzeug-Service für Ambulanzen und Sonderfahrzeuge bisher nur an Notfall-Hilfe gedacht haben, ist es Zeit, das WAS Konzept Service Plus Wartung kennen zu lernen. Denn wir bei WAS bieten nicht nur schnelle Hilfe bei einem Defekt oder Unfall, sondern ergänzen diesen Service auch noch um ein modulares Angebot an Wartungsleistungen.<br><br>In jedem der beiden Bereiche überlassen wir Ihnen die Wahl: Nutzen Sie aus den sechs Servicebausteinen und fünf Wartungsmodulen genau die Leistungen, die Ihrem individuellen Bedarf entsprechen. Auf diese Weise kombiniert Service Plus Wartung maximale Sicherheit mit maximaler Kosten- und Zeiteffizienz – damit Ihre Flotte jederzeit sicher, wirtschaftlich und zuverlässig Ihre Einsätze fährt!
-                                </p>
-                                <p>
-                                    <a href="#" target="_blank" class="download">
-                                        <img src="img/besonder/WAS_Servicebroschuere_de.jpg" width="135" height="191" style="padding-right: 15px; float: left;">
-                                    </a>Die "Service Plus Wartung"-Broschüre <br>zum Download.
-                                </p>
-                                <p><a href="#" target="_blank" class="ser_a">downloaden </a></p>
+                            <div class="content_md border_md jah_bottom">
+                                    <h1>Das Besondere bauen, um Besonderes zu leisten.</h1>
+                                    <p>WAS Fahrzeuge werden von 350 Mitarbeitern gefertigt. Sie sind das Ergebnis vorausschauender Entwicklung sowie sorgfältiger Verarbeitung und Prüfung. Über 1600 WAS Sonderfahrzeuge verlassen jährlich unser Werk in Wietmarschen – und mit jedem Fahrzeug viele Details, die ein Ambulanzfahrzeug oder Sonderfahrzeug besonders machen – zu einem Sonderfahrzeug Marke WAS.
+                                    </p>
+                                    <p>Lernen Sie unsere maßgeschneiderten Lösungen kennen und gewinnen Sie einen Eindruck von Qualität, Sicherheit und Ergonomie:</p>                                            
                             </div>
-                        </div>
-                        <div class="col-md-4">
+                        </div>                      
+                        <div class="col-md-4">                          
                         </div>
                     </div>
-                    <div id="to-top" class="clearfix">
-                        <a href="#header">nach oben</a>
-                    </div> 
+                    <div class="olw_all">
+                        <div class="owl-carousel owl-theme" id="pro_olw">
+                            <div class="item"><img src="img/produktion/1.jpg" alt=""></div>
+                            <div class="item"><img src="img/produktion/2.jpg" alt=""></div>
+                            <div class="item"><img src="img/produktion/3.jpg" alt=""></div>
+                            <div class="item"><img src="img/produktion/4.jpg" alt=""></div>
+                            <div class="item"><img src="img/produktion/5.jpg" alt=""></div>
+                            <div class="item"><img src="img/produktion/6.jpg" alt=""></div>
+                            <div class="item"><img src="img/produktion/7.jpg" alt=""></div>
+                            <div class="item"><img src="img/produktion/8.jpg" alt=""></div>
+                            <div class="item"><img src="img/produktion/9.jpg" alt=""></div>
+                        </div>
+                    </div>
                 </div>
+                <div id="to-top" class="clearfix">
+                    <a href="#header">nach oben</a>
+                </div> 
             </div>           
         </section>
         <!-- end -->
@@ -193,19 +201,27 @@
         <!-- end -->
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="js/owl-carousel/owl.carousel.min.js"></script>
 <script>
-    $(function () { 
-        const tabLinks = $(".tabs-link");
-        
-        tabLinks.on("click",function () { 
-            const parent = $(this).parent();
-            parent.find(".angle-right").toggleClass("rotate");
-            parent.find(".tabs-content").toggleClass("active");
-         });
-     });
+    $('#pro_olw').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
 </script>
 </body>
 </html>
